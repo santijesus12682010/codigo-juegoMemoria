@@ -1,0 +1,56 @@
+ body{
+    background: #002908;
+    background: linear-gradient(63deg, rgba(0, 41, 8, 1) 8%, rgba(0, 84, 18, 1) 21%, rgba(0, 150, 60, 1) 39%, rgba(71, 209, 59, 1) 57%, rgba(135, 207, 54, 1) 75%, rgba(219, 224, 52, 1) 90%);
+    color: white;
+    text-shadow: 0px 4px 4px rgba( 0, 0, 0, 0.7);
+ }
+  main{
+    width: 730px;
+    margin: 100px auto 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .section1{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba( 0, 0, 0, 0.2);
+  }
+  h1{
+    text-align: center;
+  }
+  button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba( 0, 0, 0, 0.5);
+  }
+  button:hover{
+    cursor: pointer;
+    color: green;
+  }
+  .section2{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 250px;
+    height: 400px;
+    padding: 0 20px;
+    box-shadow: 0px 4px 4px rgba( 0, 0, 0, 0.2);
+  }
+  .estadisticas{
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 8px;
+    box-sizing: border-box;
+  }
+  footer{
+    text-align: center;
+    background: #002908;
+    background: linear-gradient(63deg, rgba(0, 41, 8, 1) 8%, rgba(0, 84, 18, 1) 21%, rgba(0, 150, 60, 1) 39%, rgba(71, 209, 59, 1) 57%, rgba(135, 207, 54, 1) 75%, rgba(219, 224, 52, 1) 90%);
+    font-family: sans-serif;
+  }
